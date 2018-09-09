@@ -1,9 +1,12 @@
 <% include ./partials/header %> 
-<h1>Sign Up!</h1>
-
+<div class="LoginRegister-Background">
+<h1 class="LoginRegister-Text">Sign Up!</h1>
+<div class="LoginRegister-Form">
 <form action="/register" method="post">
-    <input type="text" name="username" placeholder="username">
-    <input type="password" name="password" placeholder="password">
-    <button>Sign Up</button>
+    <input type="text" name="username" placeholder="Username">
+    <input type="password" name="password" placeholder="Password">
+    <button class="Submit-Button">Sign Up</button>
 </form>
+</div>
+</div>
 <% include ./partials/footer %> 

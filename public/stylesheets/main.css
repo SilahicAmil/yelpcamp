@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+
 .thumbnail img {
     width: 100%;
 }
 
 .thumbnail {
     padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .thumbnail .caption-full {
@@ -12,4 +16,147 @@
 
 #delete-form {
     display: inline;
+}
+
+
+.navbar-default .navbar-brand{
+    z-index: 1;
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar-default .navbar-nav>li>a{
+    z-index: 1;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container-fluid{
+    background-color: #4286f4;
+}
+
+.Landing-Page{
+    z-index: 1;
+    display: relative;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    color: black;
+}
+
+.Landing-Background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 23%;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: 1;
+    background-image: url(https://images.unsplash.com/photo-1500332988905-1bf2a5733f63?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5aa69359b6bf43aa641188a50da23a4b&auto=format&fit=crop&w=1350&q=80);
+    background-position: 0px 0px;
+}
+
+.Landing-H1{
+    font: bold 70px 'Roboto Condensed', sans-serif;
+    text-indent: 1.25%;
+    text-align:center;
+    word-spacing: 20px;
+    color: white;
+    padding-bottom: 15px;
+height: center;
+}
+
+.btn-landing{
+    opacity:0;
+    padding: 20px 46px;
+    margin-top:100px;
+    margin-bottom:20px;
+    background-color: #332626;
+    color: white;
+    border: 1.5px solid white;
+    font-size: 33px;
+    animation: 1s slidefade 1s forwards;
+}
+
+.btn-landing:hover{
+    background-color:#332626;
+    color: white;
+}
+
+@keyframes slidefade{
+    100%{
+        opacity:1;
+    }
+}
+
+
+.LoginRegister-Background{
+    height: 100vh;
+    background-color:#cedbef;
+}
+
+.LoginRegister-Text{
+    font: bold 50px 'Roboto Condensed', sans-serif;
+    text-align: center;
+    color:black;
+}
+
+.LoginRegister-Form{
+padding-left:44%;
+    padding-top: 14%;
+    top:30%;
+    width:25%;
+    font-size: 20px;
+    resize:vertical;
+    border-radius: 8px;
+}
+
+.Submit-Button{
+    background-color:green;
+    border-radius: 8px;
+    border: 0px;
+    width:245px;
+    color:white;
+}
+.Submit-Button:hover{
+    opacity:0.7;
+}
+
+/*Camgrounds*/
+.Campground-Button{
+    position: relative;
+     background: #4286f4;
+        color: white;
+        border-radius: 1em;
+        padding: 1em;
+        margin-bottom: 20px;
+        top: 40%;
+        left: 36.5%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+        
+}
+
+.Campground-Button:hover{
+    background-color:#4a5668;
+    color: white;
+    text-decoration: none;
+}
+
+
+.Campground-Title{
+    text-align:center;
+    font: bold 50px 'Roboto Condensed', sans-serif;
+    word-spacing: 20px;
+}
+
+.Campground-Text{
+    text-align:center;
+    font-family:'Roboto Condensed', sans-serif;
+    word-spacing: 7px;
+    padding-bottom: 20px;
 }
