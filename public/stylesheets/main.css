@@ -75,7 +75,7 @@ height: center;
     padding: 20px 46px;
     margin-top:100px;
     margin-bottom:20px;
-    background-color: #332626;
+    background-color: #4c5e7c;
     color: white;
     border: 1.5px solid white;
     font-size: 33px;
@@ -83,7 +83,7 @@ height: center;
 }
 
 .btn-landing:hover{
-    background-color:#332626;
+    background-color:#192b49;
     color: white;
 }
 
