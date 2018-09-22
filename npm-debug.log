@@ -1,0 +1,119 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.7.3/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.7.3/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'fortawesome/fontawesome-free' ]
+2 info using npm@2.15.11
+3 info using node@v4.7.3
+4 verbose install initial load of /home/ubuntu/workspace/YelpCamp/v11Deployed/package.json
+5 warn package.json v1@1.0.0 No repository field.
+6 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/YelpCamp/v11Deployed/node_modules/body-parser/package.json
+7 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/YelpCamp/v11Deployed/node_modules/connect-flash/package.json
+8 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/YelpCamp/v11Deployed/node_modules/ejs/package.json
+9 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/YelpCamp/v11Deployed/node_modules/express/package.json
+10 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/YelpCamp/v11Deployed/node_modules/express-session/package.json
+11 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/YelpCamp/v11Deployed/node_modules/method-override/package.json
+12 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/YelpCamp/v11Deployed/node_modules/mongoose/package.json
+13 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/YelpCamp/v11Deployed/node_modules/passport/package.json
+14 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/YelpCamp/v11Deployed/node_modules/passport-local/package.json
+15 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/YelpCamp/v11Deployed/node_modules/passport-local-mongoose/package.json
+16 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/YelpCamp/v11Deployed/node_modules/purecss/package.json
+17 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/YelpCamp/v11Deployed/node_modules/save/package.json
+18 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/YelpCamp/v11Deployed/node_modules/@fortawesome/fontawesome-free/package.json
+19 info package.json connect-flash@0.1.1 No license field.
+20 info package.json passport-local@1.0.0 No license field.
+21 info package.json purecss@1.0.0 license should be a valid SPDX license expression
+22 verbose readDependencies loading dependencies from /home/ubuntu/workspace/YelpCamp/v11Deployed/package.json
+23 silly cache add args [ 'fortawesome/fontawesome-free', null ]
+24 verbose cache add spec fortawesome/fontawesome-free
+25 silly cache add parsed spec Result {
+25 silly cache add   raw: 'fortawesome/fontawesome-free',
+25 silly cache add   scope: null,
+25 silly cache add   name: null,
+25 silly cache add   rawSpec: 'fortawesome/fontawesome-free',
+25 silly cache add   spec: 'github:fortawesome/fontawesome-free',
+25 silly cache add   type: 'hosted',
+25 silly cache add   hosted:
+25 silly cache add    { type: 'github',
+25 silly cache add      ssh: 'git@github.com:fortawesome/fontawesome-free.git',
+25 silly cache add      sshUrl: 'git+ssh://git@github.com/fortawesome/fontawesome-free.git',
+25 silly cache add      httpsUrl: 'git+https://github.com/fortawesome/fontawesome-free.git',
+25 silly cache add      gitUrl: 'git://github.com/fortawesome/fontawesome-free.git',
+25 silly cache add      shortcut: 'github:fortawesome/fontawesome-free',
+25 silly cache add      directUrl: 'https://raw.githubusercontent.com/fortawesome/fontawesome-free/master/package.json' } }
+26 verbose addRemoteGit caching fortawesome/fontawesome-free
+27 verbose addRemoteGit fortawesome/fontawesome-free is a repository hosted by github
+28 silly tryGitProto attempting to clone git://github.com/fortawesome/fontawesome-free.git
+29 silly tryClone cloning fortawesome/fontawesome-free via git://github.com/fortawesome/fontawesome-free.git
+30 verbose tryClone git-github-com-fortawesome-fontawesome-free-git-579c1c77 not in flight; caching
+31 verbose correctMkdir /home/ubuntu/.npm/_git-remotes correctMkdir not in flight; initializing
+32 verbose makeDirectory /home/ubuntu/.npm/_git-remotes creation not in flight; initializing
+33 silly makeDirectory /home/ubuntu/.npm/_git-remotes uid: 1000 gid: 1000
+34 info git [ 'clone',
+34 info git   '--template=/home/ubuntu/.npm/_git-remotes/_templates',
+34 info git   '--mirror',
+34 info git   'git://github.com/fortawesome/fontawesome-free.git',
+34 info git   '/home/ubuntu/.npm/_git-remotes/git-github-com-fortawesome-fontawesome-free-git-579c1c77' ]
+35 verbose git clone --template=/home/ubuntu/.npm/_git-remotes/_templates --mirror git://github.com/fortawesome/fontawesome-free.git /home/ubuntu/.npm/_git-remotes/git-github-com-fortawesome-fontawesome-free-git-579c1c77: Cloning into bare repository '/home/ubuntu/.npm/_git-remotes/git-github-com-fortawesome-fontawesome-free-git-579c1c77'...
+35 verbose git clone --template=/home/ubuntu/.npm/_git-remotes/_templates --mirror git://github.com/fortawesome/fontawesome-free.git /home/ubuntu/.npm/_git-remotes/git-github-com-fortawesome-fontawesome-free-git-579c1c77: fatal: remote error:
+35 verbose git clone --template=/home/ubuntu/.npm/_git-remotes/_templates --mirror git://github.com/fortawesome/fontawesome-free.git /home/ubuntu/.npm/_git-remotes/git-github-com-fortawesome-fontawesome-free-git-579c1c77:   Repository not found.
+36 silly tryHTTPS attempting to clone git+https://github.com/fortawesome/fontawesome-free.git
+37 silly tryClone cloning fortawesome/fontawesome-free via git+https://github.com/fortawesome/fontawesome-free.git
+38 verbose tryClone https-github-com-fortawesome-fontawesome-free-git-2b9305b3 not in flight; caching
+39 verbose correctMkdir /home/ubuntu/.npm/_git-remotes correctMkdir not in flight; initializing
+40 info git [ 'clone',
+40 info git   '--template=/home/ubuntu/.npm/_git-remotes/_templates',
+40 info git   '--mirror',
+40 info git   'https://github.com/fortawesome/fontawesome-free.git',
+40 info git   '/home/ubuntu/.npm/_git-remotes/https-github-com-fortawesome-fontawesome-free-git-2b9305b3' ]
+41 verbose git clone --template=/home/ubuntu/.npm/_git-remotes/_templates --mirror https://github.com/fortawesome/fontawesome-free.git /home/ubuntu/.npm/_git-remotes/https-github-com-fortawesome-fontawesome-free-git-2b9305b3: Cloning into bare repository '/home/ubuntu/.npm/_git-remotes/https-github-com-fortawesome-fontawesome-free-git-2b9305b3'...
+41 verbose git clone --template=/home/ubuntu/.npm/_git-remotes/_templates --mirror https://github.com/fortawesome/fontawesome-free.git /home/ubuntu/.npm/_git-remotes/https-github-com-fortawesome-fontawesome-free-git-2b9305b3: remote: Invalid username or password.
+41 verbose git clone --template=/home/ubuntu/.npm/_git-remotes/_templates --mirror https://github.com/fortawesome/fontawesome-free.git /home/ubuntu/.npm/_git-remotes/https-github-com-fortawesome-fontawesome-free-git-2b9305b3: fatal: Authentication failed for 'https://github.com/fortawesome/fontawesome-free.git/'
+42 silly trySSH attempting to clone git@github.com:fortawesome/fontawesome-free.git
+43 silly tryClone cloning fortawesome/fontawesome-free via git@github.com:fortawesome/fontawesome-free.git
+44 verbose tryClone git-github-com-fortawesome-fontawesome-free-git-31baf705 not in flight; caching
+45 verbose correctMkdir /home/ubuntu/.npm/_git-remotes correctMkdir not in flight; initializing
+46 info git [ 'clone',
+46 info git   '--template=/home/ubuntu/.npm/_git-remotes/_templates',
+46 info git   '--mirror',
+46 info git   'git@github.com:fortawesome/fontawesome-free.git',
+46 info git   '/home/ubuntu/.npm/_git-remotes/git-github-com-fortawesome-fontawesome-free-git-31baf705' ]
+47 error git clone --template=/home/ubuntu/.npm/_git-remotes/_templates --mirror git@github.com:fortawesome/fontawesome-free.git /home/ubuntu/.npm/_git-remotes/git-github-com-fortawesome-fontawesome-free-git-31baf705: Cloning into bare repository '/home/ubuntu/.npm/_git-remotes/git-github-com-fortawesome-fontawesome-free-git-31baf705'...
+47 error git clone --template=/home/ubuntu/.npm/_git-remotes/_templates --mirror git@github.com:fortawesome/fontawesome-free.git /home/ubuntu/.npm/_git-remotes/git-github-com-fortawesome-fontawesome-free-git-31baf705: Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+47 error git clone --template=/home/ubuntu/.npm/_git-remotes/_templates --mirror git@github.com:fortawesome/fontawesome-free.git /home/ubuntu/.npm/_git-remotes/git-github-com-fortawesome-fontawesome-free-git-31baf705: Permission denied (publickey).
+47 error git clone --template=/home/ubuntu/.npm/_git-remotes/_templates --mirror git@github.com:fortawesome/fontawesome-free.git /home/ubuntu/.npm/_git-remotes/git-github-com-fortawesome-fontawesome-free-git-31baf705: fatal: Could not read from remote repository.
+47 error git clone --template=/home/ubuntu/.npm/_git-remotes/_templates --mirror git@github.com:fortawesome/fontawesome-free.git /home/ubuntu/.npm/_git-remotes/git-github-com-fortawesome-fontawesome-free-git-31baf705:
+47 error git clone --template=/home/ubuntu/.npm/_git-remotes/_templates --mirror git@github.com:fortawesome/fontawesome-free.git /home/ubuntu/.npm/_git-remotes/git-github-com-fortawesome-fontawesome-free-git-31baf705: Please make sure you have the correct access rights
+47 error git clone --template=/home/ubuntu/.npm/_git-remotes/_templates --mirror git@github.com:fortawesome/fontawesome-free.git /home/ubuntu/.npm/_git-remotes/git-github-com-fortawesome-fontawesome-free-git-31baf705: and the repository exists.
+48 verbose stack Error: Command failed: git clone --template=/home/ubuntu/.npm/_git-remotes/_templates --mirror git@github.com:fortawesome/fontawesome-free.git /home/ubuntu/.npm/_git-remotes/git-github-com-fortawesome-fontawesome-free-git-31baf705
+48 verbose stack Cloning into bare repository '/home/ubuntu/.npm/_git-remotes/git-github-com-fortawesome-fontawesome-free-git-31baf705'...
+48 verbose stack Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+48 verbose stack Permission denied (publickey).
+48 verbose stack fatal: Could not read from remote repository.
+48 verbose stack
+48 verbose stack Please make sure you have the correct access rights
+48 verbose stack and the repository exists.
+48 verbose stack
+48 verbose stack     at ChildProcess.exithandler (child_process.js:213:12)
+48 verbose stack     at emitTwo (events.js:87:13)
+48 verbose stack     at ChildProcess.emit (events.js:172:7)
+48 verbose stack     at maybeClose (internal/child_process.js:854:16)
+48 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:222:5)
+49 verbose cwd /home/ubuntu/workspace/YelpCamp/v11Deployed
+50 error Linux 4.9.120-c9
+51 error argv "/home/ubuntu/.nvm/versions/node/v4.7.3/bin/node" "/home/ubuntu/.nvm/versions/node/v4.7.3/bin/npm" "install" "--save" "fortawesome/fontawesome-free"
+52 error node v4.7.3
+53 error npm  v2.15.11
+54 error code 128
+55 error Command failed: git clone --template=/home/ubuntu/.npm/_git-remotes/_templates --mirror git@github.com:fortawesome/fontawesome-free.git /home/ubuntu/.npm/_git-remotes/git-github-com-fortawesome-fontawesome-free-git-31baf705
+55 error Cloning into bare repository '/home/ubuntu/.npm/_git-remotes/git-github-com-fortawesome-fontawesome-free-git-31baf705'...
+55 error Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+55 error Permission denied (publickey).
+55 error fatal: Could not read from remote repository.
+55 error
+55 error Please make sure you have the correct access rights
+55 error and the repository exists.
+56 error If you need help, you may report this error at:
+56 error     <https://github.com/npm/npm/issues>
+57 verbose exit [ 1, true ]

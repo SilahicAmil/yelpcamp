@@ -1,13 +1,30 @@
 <% include ./partials/header %> 
 
-<div class="LoginRegister-Background"> 
-<h1 class="LoginRegister-Text">Login!</h1>
-<div class="LoginRegister-Form">
-<form action="/login" method="POST">
-    <input type="text" name="username" placeholder="Username">
-    <input type="password" name="password" placeholder="Password">
-    <input type="submit" value="Login!" class="Submit-Button">
-</form>
+<div class="loginregister-bg">
+<div class="login-form">
+    <form action="/login" method="POST">
+		<div class="avatar">
+			<!--<img src="https://banner2.kisspng.com/20180325/eiw/kisspng-silhouette-royalty-free-photography-avatar-5ab752dad42328.1073123915219637388689.jpg" alt="Avatar">-->
+		</div>
+        <h2 class="text-center">Member Login</h2>   
+        <div class="form-group">
+        	<input type="text" class="form-control" name="username" placeholder="Username" required="required">
+        </div>
+		<div class="form-group">
+            <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+        </div>        
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Sign in</button>
+        </div>
+		<div class="clearfix">
+            <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
+            <a href="#" class="pull-right">Forgot Password?</a>
+            <!--Password recovery SoonTM?-->
+        </div>
+    </form>
+    <p class="text-center small">Don't have an account? <a href="/register">Sign up here!</a></p>
 </div>
 </div>
+<!--Add Login/Register With Google+/Facebook buttons (non functional)-->
+
 <% include ./partials/footer %> 
